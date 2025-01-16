@@ -21,6 +21,8 @@ public class Iterator {
         lilst.add("Black");
         lilst.add("White");
 
+        printList(lilst);
+
         lilst.sort(null);
         System.out.println(lilst);
 
