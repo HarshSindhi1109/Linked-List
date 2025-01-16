@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        new LinkedList().linkedListExample();
+        LinkedListExample lst = new LinkedListExample();
+        lst.linkedListExample();
+        Iterator itr = new Iterator();
     }
 }

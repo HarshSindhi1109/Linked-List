@@ -1,8 +1,9 @@
 package org.example;
+import java.util.LinkedList;
 
-public class LinkedList {
+public class LinkedListExample {
         public void linkedListExample() {
-            java.util.LinkedList<String> lilst = new java.util.LinkedList<>();
+            LinkedList<String> lilst = new LinkedList<>();
 
             lilst.add("Red");
             lilst.add("Blue");
@@ -13,6 +14,5 @@ public class LinkedList {
             for(String s : lilst) {
                 System.out.println(s);
             }
-
     }
 }
